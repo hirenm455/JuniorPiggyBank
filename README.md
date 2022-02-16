@@ -1,2 +1,0 @@
-# JuniorPiggyBank
-hi
