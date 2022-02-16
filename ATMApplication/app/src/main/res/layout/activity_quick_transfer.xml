@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuickTransferActivity"
+    android:background="@drawable/b8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:text="Quick Transfer"
+        android:fontFamily="@font/cinzel_black"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="-34dp"
+        android:src="@drawable/finalcheque" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID :"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/cinzel_black"/>
+
+    <EditText
+        android:id="@+id/edtTxtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/cinzel_black"
+        android:maxLength="3"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount :"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/cinzel_black"/>
+
+    <EditText
+        android:id="@+id/edtTextAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="265dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/cinzel_black"
+        android:maxLength="4"/>
+
+
+    <Button
+        android:layout_width="180sp"
+        android:layout_height="100sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:layout_marginBottom="193dp"
+        android:background="@drawable/select"
+        android:fontFamily="@font/cinzel_black"
+        android:onClick="send"
+        android:paddingTop="10dp"
+        android:text="Send"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>

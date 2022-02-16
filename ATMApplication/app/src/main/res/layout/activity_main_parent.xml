@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainParentActivity"
+    android:background="@drawable/b8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your present balance : "
+        android:fontFamily="@font/cinzel_black"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs  "
+        android:fontFamily="@font/cinzel_black"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:layout_marginLeft="100sp"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:id="@+id/txtVwamt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5000"
+        android:fontFamily="@font/cinzel_black"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/select"
+        android:text="Add Task"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:fontFamily="@font/cinzel_black"
+        android:paddingTop="15dp"
+        android:onClick="add"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:layout_toRightOf="@+id/button"
+        android:background="@drawable/select"
+        android:text="Quick Transfer"
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        android:fontFamily="@font/cinzel_black"
+        android:paddingTop="15dp"
+        android:onClick="quick"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toEndOf="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:background="@drawable/select"
+        android:textColor="@android:color/white"
+        android:text="Limit"
+        android:textSize="19dp"
+        android:fontFamily="@font/cinzel_black"
+        android:paddingTop="15dp"
+        android:onClick="limit"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button32" />
+
+</RelativeLayout>

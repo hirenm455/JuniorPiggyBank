@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WishlistActivity"
+    android:background="@drawable/b8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whishlist"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/txtVwShoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoes       Rs"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20sp" />
+
+    <TextView
+        android:id="@+id/txtVwShoesAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="400  "
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="230sp" />
+
+    <CheckBox
+        android:id="@+id/chkShoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="125dp"
+        android:buttonTint="@android:color/white"
+        android:scaleX="1.8"
+        android:scaleY="1.8" />
+
+
+    <TextView
+        android:id="@+id/txtVwWatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Watch     Rs  "
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20sp" />
+
+    <TextView
+        android:id="@+id/txtVwWatchAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="500"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="230sp" />
+
+    <CheckBox
+        android:id="@+id/chkWatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="214dp"
+        android:buttonTint="@android:color/white"
+        android:scaleX="1.8"
+        android:scaleY="1.8" />
+
+    <TextView
+        android:id="@+id/txtVwCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Car Toy  Rs "
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20sp" />
+
+    <TextView
+        android:id="@+id/txtVwCarAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="150"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="230sp" />
+
+    <CheckBox
+        android:id="@+id/chkCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="305dp"
+        android:buttonTint="@android:color/white"
+        android:scaleX="1.8"
+        android:scaleY="1.8" />
+
+    <Button
+        android:layout_width="180sp"
+        android:layout_height="100sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="193dp"
+        android:background="@drawable/select"
+        android:fontFamily="@font/cinzel_black"
+        android:text="Withdraw"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="340dp"
+        android:onClick="withdraw"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.atmapplication"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <uses-feature
+        android:name="android.hardware.fingerprint"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.atmapplication.DepositActivity" />
+        <activity android:name="com.example.atmapplication.PerformTaskActivity" />
+        <activity android:name="com.example.atmapplication.QuickTransferActivity" />
+        <activity android:name="com.example.atmapplication.AddTaskActivity" />
+        <activity android:name="com.example.atmapplication.WithdrawActivity" />
+        <activity android:name="com.example.atmapplication.WishlistActivity" />
+        <activity android:name="com.example.atmapplication.MainParentActivity" />
+        <activity android:name="com.example.atmapplication.LimitActivity" />
+        <activity android:name="com.example.atmapplication.MainChildActivity" />
+        <activity android:name="com.example.atmapplication.ParentActivity" />
+        <activity android:name="com.example.atmapplication.ChildActivity" />
+        <activity android:name="com.example.atmapplication.SelectActivity" />
+        <activity android:name="com.example.atmapplication.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

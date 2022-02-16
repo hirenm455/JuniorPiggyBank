@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTaskActivity"
+    android:background="@drawable/b8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home             Rs"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="work"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20sp"/>
+
+    <TextView
+        android:id="@+id/txtVwShoesAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="60  "
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="230sp" />
+
+    <CheckBox
+        android:id="@+id/chkHw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="120dp"
+        android:buttonTint="@android:color/white"
+        android:scaleX="1.8"
+        android:scaleY="1.8" />
+
+
+    <TextView
+        android:id="@+id/txtVwWatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fold               Rs  "
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothes"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="20sp" />
+
+    <TextView
+        android:id="@+id/txtVwWatchAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="230sp" />
+
+    <CheckBox
+        android:id="@+id/chkClothes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="215dp"
+        android:buttonTint="@android:color/white"
+        android:scaleX="1.8"
+        android:scaleY="1.8" />
+
+    <TextView
+        android:id="@+id/txtVwCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Polish           Rs "
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="20sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoes"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="20sp" />
+
+    <TextView
+        android:id="@+id/txtVwCarAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="230sp" />
+
+    <CheckBox
+        android:id="@+id/chkPolish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="290dp"
+        android:buttonTint="@android:color/white"
+        android:scaleX="1.8"
+        android:scaleY="1.8" />
+
+    <Button
+        android:layout_width="180sp"
+        android:layout_height="120sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="193dp"
+        android:background="@drawable/select"
+        android:fontFamily="@font/cinzel_black"
+        android:text="Transfer\n Money"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="340dp"
+        android:paddingTop="30dp"
+       android:onClick="transfer"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerformTaskActivity"
+    android:background="@drawable/b8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perform Task"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home       Rs"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="work"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20sp"/>
+
+    <TextView
+        android:id="@+id/txtVwShoesAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="60  "
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="185sp" />
+
+    <Button
+        android:id="@+id/btnHw"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/select"
+        android:text="Done"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/cinzel_black"
+        android:onClick="hw"/>
+
+
+    <TextView
+        android:id="@+id/txtVwWatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fold        Rs  "
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clothes"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="20sp" />
+
+    <TextView
+        android:id="@+id/txtVwWatchAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="185sp" />
+
+    <Button
+        android:id="@+id/btnClothes"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/select"
+        android:text="Done"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/cinzel_black"
+        android:onClick="clothes"/>
+
+    <TextView
+        android:id="@+id/txtVwCar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Polish    Rs "
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="20sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoes"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="20sp" />
+
+    <TextView
+        android:id="@+id/txtVwCarAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/cinzel_black"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="185sp" />
+
+    <Button
+        android:id="@+id/btnPolish"
+        android:layout_width="130dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/select"
+        android:text="Done"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/cinzel_black"
+        android:onClick="polish"/>
+
+
+</RelativeLayout>

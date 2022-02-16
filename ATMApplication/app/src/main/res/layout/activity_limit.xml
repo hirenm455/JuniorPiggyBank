@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LimitActivity"
+    android:background="@drawable/b8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Single Spend Limit : "
+        android:fontFamily="@font/cinzel_black"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs 500"
+        android:fontFamily="@font/cinzel_black"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where money can be spent?"
+        android:fontFamily="@font/cinzel_black"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="134dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online"
+        android:fontFamily="@font/cinzel_black"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="200dp"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+        android:buttonTint="@android:color/white"
+        android:scaleX="1.8"
+        android:scaleY="1.8" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stores"
+        android:fontFamily="@font/cinzel_black"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="260dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="258dp"
+        android:buttonTint="@android:color/white"
+        android:scaleX="1.8"
+        android:scaleY="1.8" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food"
+        android:fontFamily="@font/cinzel_black"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="320dp"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="320dp"
+        android:buttonTint="@android:color/white"
+        android:scaleX="1.8"
+        android:scaleY="1.8" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="182dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/select"
+        android:fontFamily="@font/cinzel_black"
+        android:onClick="ok"
+        android:paddingLeft="10dp"
+        android:text="OK"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>
